@@ -24083,6 +24083,7 @@ GameObject:
   - component: {fileID: 2192886540027091411}
   - component: {fileID: 3008801637268706934}
   - component: {fileID: 1019395078421160636}
+  - component: {fileID: 3008801637268706935}
   m_Layer: 0
   m_Name: oldcar_whole
   m_TagString: Untagged
@@ -24189,6 +24190,20 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1523731921496736617}
+  m_Mesh: {fileID: -4025502111180729990, guid: 9e4b376b9a281df4f9f7576ef294083e, type: 3}
+--- !u!64 &3008801637268706935
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1523731921496736617}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
   m_Mesh: {fileID: -4025502111180729990, guid: 9e4b376b9a281df4f9f7576ef294083e, type: 3}
 --- !u!1 &3295603268561139374 stripped
 GameObject:
