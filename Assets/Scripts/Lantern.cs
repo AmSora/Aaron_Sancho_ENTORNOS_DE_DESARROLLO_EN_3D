@@ -39,7 +39,7 @@ public class Lantern : MonoBehaviour
         currentLantern.transform.parent = handTransform; // Hacemos que la linterna sea un hijo de la mano
         currentLantern.transform.localPosition = Vector3.zero; // Ajustamos la posición local a cero
         currentLantern.transform.localRotation = Quaternion.identity; // Ajustamos la rotación local a la identidad
-        currentLantern.GetComponent<BoxCollider>().enabled = false; // Desactivamos el BoxCollider de la linterna
+        //currentLantern.GetComponent<BoxCollider>().enabled = false; // Desactivamos el BoxCollider de la linterna
         currentLantern.GetComponent<Rigidbody>().isKinematic = true; // Desactivamos la física de la linterna
 
         // Desactivar el objeto de texto de recolección
@@ -92,7 +92,7 @@ public class Lantern : MonoBehaviour
             currentLantern.transform.position = handPosition * dropDistance;
         }
 
-        currentLantern.GetComponent<BoxCollider>().enabled = true; // Activamos el BoxCollider de la linterna
+        //currentLantern.GetComponent<BoxCollider>().enabled = true; // Activamos el BoxCollider de la linterna
         currentLantern.GetComponent<Rigidbody>().isKinematic = false; // Activamos la física de la linterna
         currentLantern = null; // El jugador ya no está sosteniendo la linterna
     }
