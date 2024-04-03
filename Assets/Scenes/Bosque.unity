@@ -5415,7 +5415,7 @@ Transform:
   - {fileID: 1933671636}
   - {fileID: 296727776}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &90037682
 PrefabInstance:
@@ -14072,6 +14072,18 @@ PrefabInstance:
       propertyPath: m_Range
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 108238088253024190, guid: 3126ca4c2d851514395844c0d42d1ca7, type: 3}
+      propertyPath: m_Color.b
+      value: 0.05128159
+      objectReference: {fileID: 0}
+    - target: {fileID: 108238088253024190, guid: 3126ca4c2d851514395844c0d42d1ca7, type: 3}
+      propertyPath: m_Color.g
+      value: 0.24732092
+      objectReference: {fileID: 0}
+    - target: {fileID: 108238088253024190, guid: 3126ca4c2d851514395844c0d42d1ca7, type: 3}
+      propertyPath: m_Color.r
+      value: 0.4056604
+      objectReference: {fileID: 0}
     - target: {fileID: 3967905933659564323, guid: 3126ca4c2d851514395844c0d42d1ca7, type: 3}
       propertyPath: m_Range
       value: 0.2
@@ -19698,7 +19710,7 @@ Transform:
   m_Children:
   - {fileID: 3696967}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!82 &1410935554
 AudioSource:
@@ -21103,7 +21115,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1529828402}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -21403,7 +21415,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1557810968}
-  m_LocalRotation: {x: -0, y: -0.9986981, z: -0, w: -0.05101155}
+  m_LocalRotation: {x: -0, y: -0.9986981, z: -0, w: -0.0510116}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -21418,7 +21430,7 @@ FixedJoint:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1557810968}
-  m_ConnectedBody: {fileID: 999666914}
+  m_ConnectedBody: {fileID: 0}
   m_ConnectedArticulationBody: {fileID: 0}
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -22481,9 +22493,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1670038605}
-  m_LocalRotation: {x: -0, y: -0.028011702, z: -0, w: -0.9996076}
-  m_LocalPosition: {x: 0.394, y: 0.457, z: 0.784}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0.028011683, z: -0, w: -0.9996076}
+  m_LocalPosition: {x: 0.3939885, y: 0.45699978, z: 0.78400266}
+  m_LocalScale: {x: 0.99999994, y: 1, z: 0.99999994}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1471538247}
